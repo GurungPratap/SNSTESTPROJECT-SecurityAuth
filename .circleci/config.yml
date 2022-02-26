@@ -16,10 +16,10 @@ jobs:  # a collection of steps
 
     working_directory: ~/snsauthserver # directory where steps will run
 
-    #environment:
+    environment:
       # Customize the JVM maximum heap limit
-      #JVM_OPTS: -Xmx3200m
-      #TERM: dumb
+      AUTH_DB_USERNAME: SnsAuthServer
+      AUTH_DB_PW: Homic3ide!
 
     steps: # a collection of executable commands
       - checkout  # check out source code to working directory
